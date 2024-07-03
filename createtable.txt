@@ -1,0 +1,18 @@
+create table client(cid int,cname varchar(20),phno bigint,primary key(cid));
+
+create table menu(mid int,mname varchar(20),cost decimal(10,2), primary key(mid));
+
+create table food(fid int AUTO_INCREMENT,cid int,mid int,quantity int,tprice int ,primary key(fid),foreign key(cid) references client(cid) , foreign key(mid) references menu(mid));
+
+create table amount(aid int ,cid varchar(10),tamount int,primary key(aid) ,  foreign key(cid) references client(cid));
+
+create table location(lid int,location varchar(20),primary key(lid));
+
+create table truck(tid int,lid int,owner varchar(20),primary key(tid) , foreign key(lid) references location(lid));
+
+create table department(did int,dname varchar(20),primary key(did));
+
+create table staff(sid int,sname varchar(20),age int,address varchar(20), did int,tid int,primary key(sid),foreign key(tid) references truck(tid), foreign key(did) references department(did));
+
+create table maintaince(mtid int,tid int,sid int,mdate date,primary key(mtid),foreign key(tid) references truck(tid),foreign key(sid) references staff(sid));
+

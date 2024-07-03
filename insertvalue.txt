@@ -1,0 +1,16 @@
+•	Menu table insert into menu values(1,'chicken taco', 60) , (2,'veg taco',50),(3,'french fries',  40),(4,'chicken burritos',80),(5,'veg burritos',70),(6,'nacho',55);
+
+•	Client table insert into client values(1000,'chethan',9844126623),(1001,'shreya',  8754695658), (1002, 'shraddha' , 8996775665),(1003,'deepthi',9787446645) , (1004,'surekha',9846760071),(1005,'savitha',8687584958),(1006,'sunitha',9995654856),(1007,'karthik',9426445648),(1008,'kinmani',9887556456),(1009,'pappuri',9995643459),(1010,'cheya',9654658789);
+
+•	Location table insert into location values(10,'carstreet'),(11,'morgans gate'),(12,'puttur');
+ 
+
+•	Department table insert into department values(101,' head_chef'),(102,'receptionist'), (103,'sous_chef'),(104,'helper'), (105,'mechanic');
+
+
+•	Truck table insert into truck values(20,10,'krishna'),(21,11,'srinivas'),(22,12,'devadas');
+
+
+•	Staff Table insert into staff values(200,'sharat',25,'manglore',101,20),(201,'sharv',26, 'manglore',102,20),(202,'anil',30,'kumble',103,20),(203,'navin',26, 'manglore',104,20), (204,'arvi',22,'manglore',105,20),(205,'nash',25,'tokkotu',101,21),(206,'imli',26,'manglore',102,21),(207,'aryan',30,'manjeshwara',103,21),(208,'jeros',26,'manglore',104,21),(209,'kamal',22,'manglore',105,21),(210,'koyal',25,'kumble',101,22),(211,'kumar',26,'manglore',102,22),(212,'shennu',30,'manjeshwara',103,22),(213,'navin',26,'tokkotu',104,22),(214,'appu',22,'manglore',105,22);
+
+•	Maintenance table insert into maintaince values(30,20,204,'2024-02-24'),(31,21,209,'2024-02-24'),(32,22,214,'2024-02-24');
